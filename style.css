@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  background-image: url(glistering.gif);
+  color: #00ff80;
+  font-family: Consolas, monospace;
+  animation: shift 1s infinite linear;
+  image-rendering: pixelated;
+}
+
+a {
+  color: #00ff80;
+}
+
+#container {
+  display: flex;
+  min-height: 90vh;
+  justify-content:center;
+  align-items:center;
+}
+
+#a_message {
+  display: block;
+  background: #010101;
+  width: max-content;
+  border: solid 2px #00ff80;
+  text-align: center;
+  padding: 16px;
+  box-shadow: #ff00ff 16px 16px 0px 0px;
+  /*background-image: url(glistering_ani.gif);*/
+}
+
+#a_message p {
+  text-align: justify;
+}
+
+@keyframes shift {
+  from {background-position: 0x 0px;}
+  to {background-position: 64px 64px;}
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>.:GATE:.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="container">
+		<div id="a_message">
+		<h3>Welcome lost Traveler.</h3>
+		<h1>You have reached the <i>GATE</i></h1>
+		<h2>for H3's selfhosted services.</h2>
+		<p>
+			<span id="requested_host">The specified host</span> is not known to me. Turn back and retrace your steps.<br>
+			<script>if (window.location.host.length > 0) requested_host.innerText=window.location.host;</script>
+			<br>
+			This place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.<br>
+			<br>
+			Make sure you have set the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Host">Host-Header</a> correctly.<wbr>
+			Without it I cannot forward your request to the appropriate vHost.<wbr>
+			Check if you are connecting to the correct port.
+		</p>
+		</div>
+	</div>
+</body>
+
+</html>
