@@ -38,3 +38,22 @@ a {
   from {background-position: 0x 0px;}
   to {background-position: 64px 64px;}
 }
+
+
+#button_bar {
+  display: block;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 0px;
+  height: 31px;
+  width: max-content;
+}
+
+#button_bar img {
+  margin: 0px;
+  margin-left: 4px;
+  width: 88px;
+  height: 31px;
+  image-rendering: pixelated;
+}
