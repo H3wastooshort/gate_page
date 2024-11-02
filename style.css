@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background-image: url(glistering.gif);
+  background-image: url(/glistering.gif);
   color: #00ff80;
   font-family: Consolas, monospace;
   animation: shift 1s infinite linear;
@@ -56,4 +56,11 @@ a {
   width: 88px;
   height: 31px;
   image-rendering: pixelated;
+}
+
+.rightside {
+  height: 50vh;
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
 }

@@ -2,28 +2,25 @@
 <html>
 
 <head>
-<title>.:GATE:.</title>
+<title>.:404:.</title>
 <link rel="stylesheet" href="/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<img class="rightside" src="/xenia_KO_lq-or8.png">
 	<div id="container">
 		<div id="a_message">
 		<h3>Welcome lost Traveler.</h3>
 		<h1>You have reached the <i>GATE</i></h1>
 		<h2>for H3's selfhosted services.</h2>
 		<p>
-			<span id="requested_host">The specified host</span> is not known to me. Turn back and retrace your steps.<br>
+			<span id="requested_host">The specified path</span> is not known to me. Turn back and retrace your steps.<br>
 			<br>
 			This place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.<br>
 			<br>
-			Make sure you have set the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Host">Host-Header</a> correctly.<wbr>
-			Without it I cannot forward your request to the appropriate vHost.<br>
-			Check if you are connecting to the correct port.<br>
-			<br>
 			You might be looking for something linked on <a href="https://h3.neocities.org/">h3.neocities.org</a>.<br>
-			Contact the webmaster if you think something should be here... 
+			Contact the webmaster if you think something should be here...
 		</p>
 		</div>
 	</div>
@@ -33,7 +30,7 @@
 	</div>
 	<audio id="beep_boop" src="beep.wav"></audio>
 	<script>
-if (window.location.host.length > 0) requested_host.innerText=window.location.host;
+if (window.location.pathname > 0) requested_host.innerText=window.location.pathname;
 a_message.onclick=function() {
 	beep_boop.play();
 };
