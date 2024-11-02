@@ -30,7 +30,7 @@
 	</div>
 	<audio id="beep_boop" src="beep.wav"></audio>
 	<script>
-if (window.location.pathname > 0) requested_host.innerText=window.location.pathname;
+if (window.location.pathname.length > 0) requested_host.innerText=window.location.pathname;
 a_message.onclick=function() {
 	beep_boop.play();
 };
