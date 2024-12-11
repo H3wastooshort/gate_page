@@ -48,6 +48,7 @@ a {
   padding: 0px;
   height: 31px;
   width: max-content;
+  z-index: -1;
 }
 
 #button_bar img {
@@ -63,4 +64,6 @@ a {
   position: absolute;
   left: 4px;
   bottom: 4px;
+  z-index: -1;
 }
+
